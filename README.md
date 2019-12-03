@@ -24,9 +24,13 @@ sfs = SFS(base_model,
          ).fit(X_train, y_train)
  
 base_model: sklearn classifer or regressor
+
 k_features: feature number of feature subset
+
 Forward: True-Forward Selection False-Backward Selection
+
 cv: cross_validation
+
 n_jobs: The number of CPUs to use for evaluating different feature subsets in parallel. e.g "-1" means all CPUs
 
 # Output:
